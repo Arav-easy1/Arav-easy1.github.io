@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.817b259b.chunk.css",
+    "main.js": "/static/js/main.77333499.chunk.js",
+    "main.js.map": "/static/js/main.77333499.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3707f2e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3707f2e9.js.map",
+    "static/js/2.11ce219d.chunk.js": "/static/js/2.11ce219d.chunk.js",
+    "static/js/2.11ce219d.chunk.js.map": "/static/js/2.11ce219d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e433521fec89a09832ac2a669b3d8a83.js": "/precache-manifest.e433521fec89a09832ac2a669b3d8a83.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.817b259b.chunk.css.map": "/static/css/main.817b259b.chunk.css.map",
+    "static/js/2.11ce219d.chunk.js.LICENSE.txt": "/static/js/2.11ce219d.chunk.js.LICENSE.txt",
+    "static/media/202009-movieapp.png": "/static/media/202009-movieapp.593181de.png",
+    "static/media/github_icon.png": "/static/media/github_icon.e45ebd52.png",
+    "static/media/klper.png": "/static/media/klper.6d3486fd.png",
+    "static/media/profile-arav.png": "/static/media/profile-arav.c3403cd9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3707f2e9.js",
+    "static/js/2.11ce219d.chunk.js",
+    "static/css/main.817b259b.chunk.css",
+    "static/js/main.77333499.chunk.js"
+  ]
+}
