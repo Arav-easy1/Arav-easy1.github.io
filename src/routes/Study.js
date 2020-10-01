@@ -1,10 +1,15 @@
 import React from "react";
+import "./Study.css";
 
 function Study() {
   return (
-    <div>
-      <p>여기는 공부한 내용들이 올라갈 것임.</p>
-    </div>
+    <section className="container">
+      <div className="studys">
+        <div className="study">
+          <p>공부한 것들을 올릴 것임. 코드 정리중.</p>
+        </div>
+      </div>
+    </section>
   );
 }
 
