@@ -33,6 +33,7 @@ class Projects extends Component {
           "AWS EC2",
         ],
         urls: ["https://klper.com/", "https://youtu.be/CgxLHxt_A8M"],
+        github: "https://github.com/Arav-easy1/KLPR_FINAL_BUILD",
       },
       {
         id: 2,
@@ -43,6 +44,7 @@ class Projects extends Component {
           "React의 기초를 알기위해 들었던 인터넷강의를 기반으로 간단하게 만들어본 React App. yts라는 영화사이트 API를 사용하여 해당 사이트의 영화리뷰점수 Top20의 영화 리스트와 상세정보를 가져와 보여주는 App이다. 이 App 덕분에 GitBlog를 만드는데 많은 도움이 되었다.",
         techs: ["React"],
         urls: ["https://arav-easy1.github.io/20200915-movie_app/"],
+        github: "https://github.com/Arav-easy1/20200915-movie_app",
       },
     ],
   };
@@ -76,6 +78,13 @@ class Projects extends Component {
               </ul>
 
               <p className="project_summary">{project.summary}</p>
+              <p className="project_source">
+                <a href={project.github}>
+                  Source Code
+                  <br />
+                  {project.github}
+                </a>
+              </p>
             </div>
           </div>
         ))}

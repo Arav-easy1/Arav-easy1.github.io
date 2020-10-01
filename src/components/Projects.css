@@ -39,6 +39,7 @@
   max-width: 400px;
   width: 100%;
   margin-right: 30px;
+  border-radius: 5px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
@@ -97,4 +98,28 @@
   line-height: 1.5;
   font-size: 15px;
   font-weight: 600;
+}
+
+.project .project_source {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.125rem;
+  margin-right: 0.125rem;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  background-color: #c7c4da;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.project .project_source a {
+  text-decoration: none;
+  color: #1a1919;
+}
+
+.project .project_source a:visited {
+  text-decoration: none;
+  color: #1a1919;
 }
