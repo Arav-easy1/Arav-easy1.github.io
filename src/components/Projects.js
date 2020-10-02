@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Projects.css";
+import githubIcon from "../data/img/github_icon.png";
 import Poster01 from "../images/klper.png";
 import Poster02 from "../images/202009-movieapp.png";
 
@@ -80,8 +81,7 @@ class Projects extends Component {
               <p className="project_summary">{project.summary}</p>
               <p className="project_source">
                 <a href={project.github}>
-                  Source Code
-                  <br />
+                  <img src={githubIcon} alt="github-icon" />
                   {project.github}
                 </a>
               </p>

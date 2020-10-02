@@ -1,0 +1,87 @@
+.home {
+  display: grid;
+  padding: 50px;
+  width: 80%;
+  padding-top: 70px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1090px) {
+  .home {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.home .home_about {
+  background-color: white;
+  margin-bottom: 100px;
+  font-weight: 400;
+  padding: 20px;
+  border-radius: 5px;
+  color: #597a69;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.home_about img {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.home_about .about_text {
+  padding: 1%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #597a69;
+  line-height: 1.5;
+}
+
+.home_about .about_text .about_name {
+  font-size: 50px;
+}
+
+.home_about .about_text .about_de {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1090px) {
+  .home_about .about_text .about_de {
+    font-weight: 500;
+  }
+}
+
+.home_about .about_text .about_source {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.125rem;
+  margin-right: 0.125rem;
+  display: inline-block;
+  color: #252525;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f3f2f2;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.home_about .about_text .about_source a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home_about .about_text img {
+  top: 0;
+  margin: 0;
+  margin-right: 5px;
+  max-width: 1.5em;
+  width: 100%;
+  vertical-align: middle;
+}

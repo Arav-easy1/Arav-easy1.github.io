@@ -6,7 +6,10 @@ function Study() {
     <section className="container">
       <div className="studys">
         <div className="study">
-          <p>공부한 것들을 올릴 것임. 코드 정리중.</p>
+          <p>
+            공부한 것들을 올릴 것임. <br />
+            코드 정리중.
+          </p>
         </div>
       </div>
     </section>
