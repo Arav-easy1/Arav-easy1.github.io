@@ -3,33 +3,3 @@
   display: flex;
   justify-content: center;
 }
-
-.studys {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 100px;
-  padding: 50px;
-  width: 100%;
-  padding-top: 70px;
-}
-
-@media screen and (max-width: 1090px) {
-  .studys {
-    grid-template-columns: 1fr;
-    width: 80%;
-    margin: 0;
-  }
-}
-
-.studys .study {
-  text-align: center;
-  background-color: white;
-  margin-bottom: 70px;
-  margin-left: 12%;
-  font-weight: 600;
-  padding: 20px;
-  border-radius: 5px;
-  color: #597a69;
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-}
